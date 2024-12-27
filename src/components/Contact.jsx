@@ -39,9 +39,9 @@ const Contact = () => {
         {/* Download Resume Button */}
         <div className="mt-10 text-center">
           <a
-            // href="E:/OneDrive - FAST National University/samaha/WebDevelopment/portfoliothreejs/3d-portfolio/src/assets/SamahaBatoolResume.pdf" // Replace with the actual path to your resume
-            href="https://drive.google.com/file/d/1es8d-j1bDRMvAy5TVkvNv_VE8kTCs0bS/view?usp=drive_link" // Replace with the actual path to your resume
-            download
+             href="https://drive.google.com/file/d/1es8d-j1bDRMvAy5TVkvNv_VE8kTCs0bS/view?usp=drive_link" // Replace with your Google Drive link
+             target="_blank"
+             rel="noopener noreferrer" // Security best practice for external links
             className="inline-block px-6 py-3 mb-6 text-lg font-semibold text-white bg-tertiary rounded-full transition-all duration-500 ease-in-out transform hover:bg-white hover:text-tertiary hover:scale-105"
           >
             Wanna See My Resume?
